@@ -20,7 +20,16 @@ const ListaLibros = () => {
 
     return (
         <div className="p-4">
-            <h2 className="text-2xl font-bold mb-4">Lista de Libros</h2>
+            <div className="flex justify-between items-center mb-4">
+                <h2 className="text-2xl font-bold">Lista de Libros</h2>
+                <button
+                    onClick={() => navigate("/crear")}
+                    className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+                >
+                    Crear nuevo libro
+                </button>
+            </div>
+
             <table className="table-auto w-full border border-gray-300">
                 <thead className="bg-gray-100">
                 <tr>
