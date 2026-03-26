@@ -11,7 +11,7 @@ Visualizar la lista de libros
 Editar información existente
 Eliminar libros
 
-Fue diseñado siguiendo una estructura modular y pensando en su integración futura con un backend en Python y una base de datos PostgreSQL.
+Fue diseñado siguiendo una estructura modular y pensando en su integración futura con un backend y la base de datos.
 
 🛠️ Tecnologías utilizadas
 React
@@ -52,10 +52,8 @@ Está diseñado para integrarse fácilmente con una API REST.
 
 🔗 Posible integración futura
 
-Este frontend puede conectarse a un backend desarrollado en:
+Este frontend puede conectarse a un backend
 
-Python (Flask o FastAPI)
-Base de datos PostgreSQL
 
 Donde cada libro sería una entidad persistida en la base de datos.
 
@@ -65,6 +63,6 @@ Autenticación de usuarios
 Validaciones avanzadas
 Manejo de errores
 Persistencia de datos
-👨‍💻 Autor
 
+👨‍💻 Autor
 Desarrollado por John Alexander Hidalgo
